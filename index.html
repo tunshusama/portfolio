@@ -96,3 +96,74 @@
               <h3 class="text-base font-semibold text-slate-100">2. AI Agent 智能邮件助手工作流</h3>
               <p class="mt-1 text-sm leading-relaxed text-slate-400">
                 自动分类、摘要、生成草稿与优先级标注的工作流实践
+              </p>
+              <div class="mt-4 flex flex-wrap gap-2">
+                <span class="rounded-md border border-slate-800/80 bg-slate-900/60 px-2 py-1 text-[11px] text-slate-200">AI Agent</span>
+                <span class="rounded-md border border-slate-800/80 bg-slate-900/60 px-2 py-1 text-[11px] text-slate-200">Workflow</span>
+                <span class="rounded-md border border-slate-800/80 bg-slate-900/60 px-2 py-1 text-[11px] text-slate-200">Automation</span>
+              </div>
+
+              <!-- 16:9 iframe -->
+              <div class="mt-5 overflow-hidden rounded-xl border border-slate-800/80 bg-black/30">
+                <div class="relative w-full" style="padding-top:56.25%;">
+                  <iframe
+                    class="absolute inset-0 h-full w-full"
+                    src="https://player.bilibili.com/player.html?isOutside=true&aid=115853974574177&bvid=BV1ECi1B7EuY&cid=35246705124&p=1"
+                    scrolling="no"
+                    frameborder="0"
+                    allowfullscreen="true"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    title="AI Agent 智能邮件助手工作流"
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Card 3 -->
+          <section class="group relative overflow-hidden rounded-2xl border border-slate-800/70 bg-slate-950/40">
+            <div class="pointer-events-none absolute inset-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+              <div class="absolute -left-24 -top-24 h-56 w-56 rounded-full bg-indigo-500/15 blur-2xl"></div>
+              <div class="absolute -right-24 -bottom-24 h-56 w-56 rounded-full bg-cyan-500/10 blur-2xl"></div>
+            </div>
+            <div class="relative p-5">
+              <h3 class="text-base font-semibold text-slate-100">3. 基金再回测代码（Jupyter）</h3>
+              <p class="mt-1 text-sm leading-relaxed text-slate-400">
+                规则化再平衡回测：可验证、可复盘、可扩展
+              </p>
+              <div class="mt-4 flex flex-wrap gap-2">
+                <span class="rounded-md border border-slate-800/80 bg-slate-900/60 px-2 py-1 text-[11px] text-slate-200">Python</span>
+                <span class="rounded-md border border-slate-800/80 bg-slate-900/60 px-2 py-1 text-[11px] text-slate-200">Jupyter</span>
+                <span class="rounded-md border border-slate-800/80 bg-slate-900/60 px-2 py-1 text-[11px] text-slate-200">Backtesting</span>
+              </div>
+
+              <!-- 16:9 iframe -->
+              <div class="mt-5 overflow-hidden rounded-xl border border-slate-800/80 bg-black/30">
+                <div class="relative w-full" style="padding-top:56.25%;">
+                  <iframe
+                    class="absolute inset-0 h-full w-full"
+                    src="https://player.bilibili.com/player.html?isOutside=true&aid=115853974575057&bvid=BV1ECi1B7EJ1&cid=35246768544&p=1"
+                    scrolling="no"
+                    frameborder="0"
+                    allowfullscreen="true"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    title="基金再回测代码（Jupyter）"
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+          </section>
+
+        </div>
+      </section>
+
+      <footer class="mx-auto mt-12 w-full max-w-5xl border-t border-slate-900/80 py-8 text-center text-xs text-slate-500">
+        <p>© <span id="year"></span> · Portfolio</p>
+      </footer>
+    </main>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
